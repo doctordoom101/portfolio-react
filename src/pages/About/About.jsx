@@ -45,7 +45,10 @@ function About() {
           <Experience
             year="Aug 2024 - Present"
             position="Media creative @ GDG on Campus Esa Unggul"
-            job=" Ensure the community stays active and engaged. Handle administrative tasks like creating forms and RSVP links. Manage the community online (Discord, WhatsApp) and offline (meetups)."
+            job="Design and create engaging visual content for social media, website, and promotional materials.
+            Develop branding materials to maintain a consistent community identity.
+            Edit videos and images using Adobe Photoshop, Illustrator, Premiere Pro, Canva, and other design tools.
+            Collaborate with other team members to create graphics for events, workshops, and announcements."
           />
           <Experience
             year="Oct 2023 - Aug 2024"

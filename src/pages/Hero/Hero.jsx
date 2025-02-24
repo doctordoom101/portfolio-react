@@ -9,7 +9,7 @@ function Hero() {
         <div className="w-full md:w-1/2 p-5">
           <p className="text-2xl">Hi my name is Defanda Yeremia</p>
           <h1 className="text-6xl md:text-9xl xl my-3 font-bold">I CODE FOR FUN.</h1>
-          <p className="text-2xl">Ungraduate student esa ungggul university lalala infor enginering stu</p>
+          <p className="text-2xl">Undergraduate Informatics Engineering Student at Esa Unggul University</p>
           <button className="bg-ungu px-4 rounded-lg w-2/4 border border-black mt-3 neu-pressed neu font-semibold py-5">Get My Cv</button>
         </div>
         <div className="relative w-fit mt-8">

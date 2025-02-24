@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kaushan+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neu {
+  @apply shadow-[8px_8px_0px_1px];
+}
+
+.neu-pressed {
+  @apply hover:shadow-[4px_4px_0px_1px] transition-all;
+}
+
+.bg-grid{
+  background-image: url('./assets/images/grids.png');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }

@@ -58,25 +58,42 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="#"
-            className="bg-white text-black block px-3 py-2 font-medium"
+            {/* Mobile Menu */}
+            <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div className="flex flex-col space-y-2 py-4 px-6">
+          <Link
+            to="/"
+            onClick={closeMenu}
+            className={`block py-2 px-4 transition duration-300 ${
+              location.pathname === "/"
+                ? "bg-white text-black"
+                : "hover:bg-gray-700 text-white"
+            }`}
           >
             Home
-          </a>
-          <a
-            href="#"
-            className="text-white hover:bg-gray-800 block px-3 py-2 font-medium"
+          </Link>
+          <Link
+            to="/about"
+            onClick={closeMenu}
+            className={`block py-2 px-4 transition duration-300 ${
+              location.pathname === "/about"
+                ? "bg-white text-black"
+                : "hover:bg-gray-700 text-white"
+            }`}
           >
             About
-          </a>
-          <a href="#"
-            className="text-white hover:bg-gray-800 block px-3 py-2 font-medium"
+          </Link>
+          <Link
+            to="/project"
+            onClick={closeMenu}
+            className={`block py-2 px-4 transition duration-300 ${
+              location.pathname === "/project"
+                ? "bg-white text-black"
+                : "hover:bg-gray-700 text-white"
+            }`}
           >
             Projects
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

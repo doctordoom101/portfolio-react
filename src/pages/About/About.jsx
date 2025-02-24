@@ -44,16 +44,26 @@ function About() {
         <div className="bg-white border border-black flex flex-col gap-y-7 shadow-[10px_10px_0px_1px] p-7 md:px-20 md:py-14 w-full md:w-2/3 lg:w-1/2">
           <Experience
             year="Aug 2024 - Present"
-            position="Media creative @ GDG on Campus Esa Unggul"
-            job="Design and create engaging visual content for social media, website, and promotional materials.
-            Develop branding materials to maintain a consistent community identity.
-            Edit videos and images using Adobe Photoshop, Illustrator, Premiere Pro, Canva, and other design tools.
-            Collaborate with other team members to create graphics for events, workshops, and announcements."
+            position="Media Creative @ GDG on Campus Esa Unggul"
+            job={
+              <div className="space-y-2">
+                <p>Design and create engaging visual content for social media, website, and promotional materials.</p>
+                <p>Develop branding materials to maintain a consistent community identity.</p>
+                <p>Edit videos and images using Adobe Photoshop, Illustrator, Premiere Pro, Canva, and other design tools.</p>
+                <p>Collaborate with other team members to create graphics for events, workshops, and announcements.</p>
+              </div>
+            }
           />
           <Experience
             year="Oct 2023 - Aug 2024"
-            position="Comunity Manager @ GDSC Esa Unggul"
-            job="Ensure the community stays active and engaged. Handle administrative tasks like creating forms and RSVP links. Manage the community online (Discord, WhatsApp) and offline (meetups)."
+            position="Community Manager @ GDSC Esa Unggul"
+            job={
+              <div className="space-y-2">
+                <p>Ensure the community stays active and engaged.</p>
+                <p>Handle administrative tasks like creating forms and RSVP links.</p>
+                <p>Manage the community online (Discord, WhatsApp) and offline (meetups).</p>
+              </div>
+            }
           />
         </div>
       </div>

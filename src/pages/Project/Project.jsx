@@ -29,7 +29,7 @@ const projectData = [
   },
   {
     Title: "Sales & Inventory Management",
-    Description: "inventory and post system, oop project",
+    Description: "Inventory Management and POS system, oop project",
     Images: [img7, img8, img9],
     Tools: ["Java", "JavaFX", "MySQL"],
     githubLink: "https://github.com/Zain0205/el-market-inventory-and-sales",
